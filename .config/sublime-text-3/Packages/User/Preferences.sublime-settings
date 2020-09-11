@@ -1,0 +1,48 @@
+{
+	"color_scheme": "Packages/Nord/Nord.sublime-color-scheme",
+	"ensure_newline_at_eof_on_save": true,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"node_modules",
+		".vscode",
+		"dist",
+		".pytest_cache",
+		"pycache",
+		".serverless",
+		"pycache"
+	],
+	"font_face": "Cascadia Code",
+	"font_options":
+	[
+	],
+	"font_size": 11,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+		"Rust",
+		"Vintage"
+	],
+	"installed_packages":
+	[
+		"Package Control"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 0,
+	"show_full_path": false,
+	"theme": "Agila.sublime-theme",
+	"theme_agila_active_tab_entry_white": true,
+	"theme_agila_compact_sidebar": true,
+	"theme_agila_modified_tab_marker_lightblue": true,
+	"theme_agila_sidebar_heading_gray": true,
+	"theme_agila_sidebar_light_icons": true,
+	"theme_agila_sidebar_selected_entry_yellow": true,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"ui_scale": 1.0
+}
