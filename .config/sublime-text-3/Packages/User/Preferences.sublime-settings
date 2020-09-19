@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/Nord/Nord.sublime-color-scheme",
+	"color_scheme": "Packages/Theme - Monokai Pro/Monokai Pro (Filter Machine).sublime-color-scheme",
 	"ensure_newline_at_eof_on_save": true,
 	"folder_exclude_patterns":
 	[
@@ -19,7 +19,7 @@
 	"font_options":
 	[
 	],
-	"font_size": 14,
+	"font_size": 12,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
@@ -35,7 +35,7 @@
 	"line_padding_bottom": 1,
 	"line_padding_top": 0,
 	"show_full_path": false,
-	"theme": "Agila.sublime-theme",
+	"theme": "Adaptive.sublime-theme",
 	"theme_agila_active_tab_entry_white": true,
 	"theme_agila_compact_sidebar": true,
 	"theme_agila_modified_tab_marker_lightblue": true,
@@ -44,5 +44,5 @@
 	"theme_agila_sidebar_selected_entry_yellow": true,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"ui_scale": 1.0
+	"ui_scale": 1.2
 }

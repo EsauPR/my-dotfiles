@@ -19,7 +19,9 @@ call plug#begin("~/.vim/plugged")
     Plug 'itchyny/lightline.vim'
     Plug 'airblade/vim-gitgutter'
     Plug 'nestorsalceda/vim-strip-trailing-whitespaces'
-    Plug 'arcticicestudio/nord-vim'
+
+    " Plug 'arcticicestudio/nord-vim'
+    Plug 'sonph/onehalf', {'rtp': 'vim/'}
 call plug#end()
 
 
@@ -111,14 +113,17 @@ endif
 filetype plugin indent on
 syntax on
 
-colorscheme nord
-let g:nord_cursor_line_number_background = 1
-let g:nord_uniform_status_lines = 1
-let g:nord_bold_vertical_split_line = 1
-let g:nord_uniform_diff_background = 1
-let g:nord_italic = 1
-let g:nord_italic_comments = 1
-let g:nord_underline = 1
+colorscheme onehalfdark
+
+
+" colorscheme nord
+" let g:nord_cursor_line_number_background = 1
+" let g:nord_uniform_status_lines = 1
+" let g:nord_bold_vertical_split_line = 1
+" let g:nord_uniform_diff_background = 1
+" let g:nord_italic = 1
+" let g:nord_italic_comments = 1
+" let g:nord_underline = 1
 
 
 " airline config
@@ -127,7 +132,7 @@ let g:nord_underline = 1
 
 " Nord theme + lightline
 let g:lightline = {
-      \ 'colorscheme': 'nord',
+      \ 'colorscheme': 'onehalfdark',
       \ 'active': {
       \   'left': [
       \     [ 'mode', 'paste' ],
@@ -185,5 +190,3 @@ function! LightlineFilename()
        \ ('' != expand('%:t') ? expand('%:t') : '[No Name]') .
        \ ('' != LightlineModified() ? ' ' . LightlineModified() : '')
 endfunction
-
-
