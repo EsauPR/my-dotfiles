@@ -89,7 +89,7 @@ au VimLeave,VimSuspend * set guicursor=a:ver25-blinkwait700-blinkoff400-blinkon2
 " gitgutter configs
 let g:gitgutter_realtime = 1
 let g:gitgutter_eager = 1
-set updatetime=500
+" set updatetime=500
 " let g:gitgutter_highlight_lines = 1
 " let g:gitgutter_highlight_linenrs = 1
 " let g:nord_uniform_diff_background = 1
