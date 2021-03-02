@@ -97,7 +97,7 @@ let g:gitgutter_eager = 1
 
 " Python configs
 let g:python3_host_prog = $HOME."/.pyenv/shims/python"
-
+au BufNewFile,BufRead /dev/shm/gopass.* setlocal noswapfile nobackup noundofile
 
 " Color scheme
 if (has("termguicolors"))
