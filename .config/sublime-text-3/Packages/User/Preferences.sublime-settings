@@ -15,11 +15,11 @@
 		".serverless",
 		"pycache"
 	],
-	"font_face": "Cascadia Code",
+	"font_face": "Cascadia Code PL",
 	"font_options":
 	[
 	],
-	"font_size": 12,
+	"font_size": 10,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
@@ -32,8 +32,8 @@
 	[
 		"Package Control"
 	],
-	"line_padding_bottom": 1,
-	"line_padding_top": 0,
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
 	"show_full_path": false,
 	"theme": "Adaptive.sublime-theme",
 	"theme_agila_active_tab_entry_white": true,
