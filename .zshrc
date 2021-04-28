@@ -76,7 +76,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git git-flow-avh dotbare zsh-syntax-highlighting pyenv )
+plugins=(git git-flow-avh dotbare zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -105,16 +105,6 @@ fi
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-alias cp="cp -i"                          # confirm before overwriting something
-alias df='df -h'                          # human-readable sizes
-alias free='free -m'                      # show sizes in MB
-alias np='nano -w PKGBUILD'
-alias more=less
-alias vim=nvim
-alias pyup="source ~/.pyenv_up"
-alias nvmup="source ~/.nvm_up"
-alias rpshell="killall plasmashell | true && plasmashell > /dev/null 2>&1 & disown"
 
 # # ex - archive extractor
 # # usage: ex <file>
