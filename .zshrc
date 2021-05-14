@@ -106,16 +106,6 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias cp="cp -i"                          # confirm before overwriting something
-alias df='df -h'                          # human-readable sizes
-alias free='free -m'                      # show sizes in MB
-alias np='nano -w PKGBUILD'
-alias more=less
-alias vim=nvim
-alias pyup="source ~/.pyenv_up"
-alias nvmup="source ~/.nvm_up"
-alias rpshell="killall plasmashell | true && plasmashell > /dev/null 2>&1 & disown"
-
 # # ex - archive extractor
 # # usage: ex <file>
 ex ()
