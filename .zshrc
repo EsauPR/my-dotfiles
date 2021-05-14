@@ -76,7 +76,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git git-flow-avh dotbare zsh-syntax-highlighting pyenv )
+plugins=(git git-flow-avh dotbare zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -146,9 +146,9 @@ if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
 fi
 
 # neofetch
+fm6000 -c green -r
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
